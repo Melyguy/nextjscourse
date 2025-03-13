@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export default function courses() {
     return(
-        <div className="w-screen h-screen grid grid-row gap-1 mt-32 justify-center items-center font-[family-name:var(--font-geist-mono)]">
-            <h1 className="text-6xl">Courses</h1>
+        <div className="w-screen h-screen grid grid-row gap-1 mt-32 justify-center items-center ">
+            <h1 className="text-6xl font-bold">Courses</h1>
             
             <h1 className="text-2xl">We have a variety of courses and tasks that are meant to be easy to understand for beginners. Take a look!</h1>
             
-            <div className="max-w-7xl mx-auto grid grid-cols-2 place-items-center gap-11">
+            <div className="max-w-7xl mx-auto grid grid-cols-2 place-items-center gap-11 font-[family-name:var(--font-geist-mono)]">
                 <div className="w-[30vw] h-[30vh] bg-blue-100 border-2 flex flex-col justify-center items-center border-blue-400 rounded-3xl">
                     <h1 className=" m-2"> Course 1: Create a simple page. </h1>
                     <h1 className=" m-2"> Description: This course will teach you how to create a simple page using javascript/typescript frameworks. </h1>
