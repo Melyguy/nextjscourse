@@ -1,12 +1,13 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 export function Footer() {
   return (
 <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-<a
+<Link
   className="flex items-center gap-2 hover:underline hover:underline-offset-4"
   href="/"
-  target="_blank"
+  
   rel="noopener noreferrer"
 >
   <Image
@@ -17,11 +18,11 @@ export function Footer() {
     height={16}
   />
   Home
-</a>
+</Link>
 <a
   className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-  href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-  target="_blank"
+  href="/courses/courseHome"
+  
   rel="noopener noreferrer"
 >
   <Image
